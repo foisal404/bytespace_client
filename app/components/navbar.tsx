@@ -31,7 +31,7 @@ export default function Navbar() {
     <>
       {/* Navbar */}
       <header className="fixed left-0 top-0 z-50 w-full">
-        <nav className="mx-auto flex h-16 w-full max-w-7xl items-center justify-between px-5 sm:px-6 lg:px-8">
+        <nav className="mx-auto flex h-16 w-full container items-center justify-between p-5 sm:p-6 lg:p-14">
           {/* Logo */}
           <Link href="/" className="shrink-0" onClick={() => setIsOpen(false)}>
             <div className="flex items-end gap-2">
@@ -226,7 +226,6 @@ export default function Navbar() {
               }`}
             >
               <BagIcon width={18} height={18} className="text-current" />
-            
             </Link>
           </div>
         </div>
