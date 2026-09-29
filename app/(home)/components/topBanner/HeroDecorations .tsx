@@ -50,7 +50,7 @@ const HeroDecorations = () => {
         src={RIGHT_SQUIGGLE}
         alt=""
         aria-hidden
-        className="pointer-events-none absolute -right-8 bottom-28 w-30 lg:right-0 lg:w-40"
+        className="pointer-events-none absolute -right-8 bottom-28 w-30 lg:right-0 lg:w-40 z-10"
       />
     </>
   );
