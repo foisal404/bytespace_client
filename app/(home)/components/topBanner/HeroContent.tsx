@@ -26,7 +26,7 @@ const HeroContent = () => {
 
         <button
           type="button"
-          className="h-12 md:w-full shrink-0 rounded-full bg-[#C8F400] px-7 text-sm font-medium text-black transition hover:brightness-95 sm:w-auto"
+          className="h-12 shrink-0 rounded-full bg-[#C8F400] px-7 text-sm font-medium text-black transition hover:brightness-95 sm:w-auto"
         >
           Search
         </button>
