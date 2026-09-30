@@ -6,6 +6,12 @@ import LEFT_SQUIGGLE from "../assets/banner/left-frame.webp";
 import RIGHT_TRIANGLE from "../assets/banner/right-02.webp";
 import RIGHT_SQUIGGLE from "../assets/banner/right-03.webp";
 import RIGHT_RET from "../assets/banner/right-frame.webp";
+import COURSE_01 from "../assets/courses/course1.webp";
+import COURSE_02 from "../assets/courses/course2.webp";
+import COURSE_03 from "../assets/courses/course3.webp";
+import COURSE_04 from "../assets/courses/course4.webp";
+import COURSE_05 from "../assets/courses/course5.webp";
+import COURSE_06 from "../assets/courses/course6.webp";
 import AVATAR_1 from "../assets/ellipses/Ellipse-1.png";
 import AVATAR_2 from "../assets/ellipses/Ellipse-2.png";
 import AVATAR_3 from "../assets/ellipses/Ellipse-3.png";
@@ -26,6 +32,12 @@ export {
   AVATAR_4,
   AVATAR_5,
   AVATAR_6,
+  COURSE_01,
+  COURSE_02,
+  COURSE_03,
+  COURSE_04,
+  COURSE_05,
+  COURSE_06,
   ELLIPSE,
   ICON,
   LEFT_CIRCLE,
