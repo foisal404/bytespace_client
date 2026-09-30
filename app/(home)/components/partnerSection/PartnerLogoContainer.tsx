@@ -40,7 +40,7 @@ const PartnerLogoContainer = () => {
   return (
     <section className="w-full bg-[#F5F5F6]">
       <div className="mx-auto max-w-7xl overflow-hidden px-5 py-20 sm:px-8 lg:px-10">
-        <div className="flex items-center justify-between gap-8 overflow-x-auto scrollbar-hide lg:gap-10">
+        <div className="flex items-center flex-wrap justify-between gap-8 md:gap-10">
           {logos?.map((logo, index) => (
             <div
               key={index}
