@@ -4,7 +4,7 @@ import { ChevronRight, Menu, X } from "lucide-react";
 import Image from "next/image";
 import Link from "next/link";
 import { usePathname } from "next/navigation";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 import { ICON } from "../utils/imports";
 import { BagIcon } from "../utils/svgs/BagIcon";
@@ -17,6 +17,7 @@ const navLinks = [
 
 export default function Navbar() {
   const [isOpen, setIsOpen] = useState(false);
+  const [isScrolled, setIsScrolled] = useState(false);
   const pathname = usePathname();
 
   const isActive = (href: string) => {
@@ -27,10 +28,29 @@ export default function Navbar() {
     return pathname.startsWith(href);
   };
 
+  useEffect(() => {
+    const handleScroll = () => {
+      setIsScrolled(window.scrollY > 20);
+    };
+
+    // Check current position immediately
+    handleScroll();
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
     <>
       {/* Navbar */}
-      <header className="fixed left-0 top-0 z-50 w-full">
+      <header
+        className={`fixed left-0 top-0 z-50 w-full transition-colors duration-300 ${
+          isScrolled ? "bg-[#003BE2]/95" : "bg-transparent"
+        }`}
+      >
         <nav className="mx-auto flex h-16 w-full container items-center justify-between p-5 sm:p-6 lg:p-14">
           {/* Logo */}
           <Link href="/" className="shrink-0" onClick={() => setIsOpen(false)}>
