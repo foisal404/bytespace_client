@@ -14,6 +14,11 @@ import AVATAR_5 from "../assets/ellipses/Ellipse-5.png";
 import AVATAR_6 from "../assets/ellipses/Ellipse-6.png";
 import ICON from "../assets/icon.png";
 import LOGO from "../assets/logo.png";
+import PARTNER_01 from "../assets/partners/partner01.webp";
+import PARTNER_02 from "../assets/partners/partner02.webp";
+import PARTNER_03 from "../assets/partners/partner03.webp";
+import PARTNER_04 from "../assets/partners/partner04.webp";
+import PARTNER_05 from "../assets/partners/partner05.webp";
 export {
   AVATAR_1,
   AVATAR_2,
@@ -27,6 +32,11 @@ export {
   LEFT_SQUIGGLE,
   LEFT_WHITE_SQUIGGLE,
   LOGO,
+  PARTNER_01,
+  PARTNER_02,
+  PARTNER_03,
+  PARTNER_04,
+  PARTNER_05,
   PERSON,
   RIGHT_RET,
   RIGHT_SQUIGGLE,
