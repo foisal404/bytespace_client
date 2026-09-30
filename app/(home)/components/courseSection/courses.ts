@@ -2,6 +2,7 @@ import {
   AVATAR_1,
   AVATAR_2,
   AVATAR_3,
+  AVATAR_4,
   COURSE_01,
   COURSE_02,
   COURSE_03,
@@ -57,7 +58,7 @@ export const COURSES: Course[] = [
     comments: 59,
     rating: 4.5,
     price: 25,
-    avatars: [AVATAR_1, AVATAR_2, AVATAR_3],
+    avatars: [AVATAR_1, AVATAR_2, AVATAR_3,AVATAR_4],
   },
 
   {
@@ -71,7 +72,7 @@ export const COURSES: Course[] = [
     comments: 59,
     rating: 4.5,
     price: 25,
-    avatars: [AVATAR_1, AVATAR_2, AVATAR_3],
+    avatars: [AVATAR_1, AVATAR_2, AVATAR_3,AVATAR_4],
   },
 
   {
@@ -85,7 +86,7 @@ export const COURSES: Course[] = [
     comments: 59,
     rating: 4.5,
     price: 25,
-    avatars: [AVATAR_1, AVATAR_2, AVATAR_3],
+    avatars: [AVATAR_1, AVATAR_2, AVATAR_3,AVATAR_4],
   },
 
   {
@@ -99,7 +100,7 @@ export const COURSES: Course[] = [
     comments: 59,
     rating: 4.5,
     price: 25,
-    avatars: [AVATAR_1, AVATAR_2, AVATAR_3],
+    avatars: [AVATAR_1, AVATAR_2, AVATAR_3,AVATAR_4],
   },
 
   {
@@ -113,7 +114,7 @@ export const COURSES: Course[] = [
     comments: 59,
     rating: 4.5,
     price: 25,
-    avatars: [AVATAR_1, AVATAR_2, AVATAR_3],
+    avatars: [AVATAR_1, AVATAR_2, AVATAR_3,AVATAR_4],
   },
 
   {
@@ -127,6 +128,6 @@ export const COURSES: Course[] = [
     comments: 59,
     rating: 4.5,
     price: 25,
-    avatars: [AVATAR_1, AVATAR_2, AVATAR_3],
+    avatars: [AVATAR_1, AVATAR_2, AVATAR_3,AVATAR_4],
   },
 ];
