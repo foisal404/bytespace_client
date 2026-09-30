@@ -15,6 +15,7 @@
 
 @theme {
   --color-primary: #f5f5f6;
+  --color-lime: #d4fb20;
 }
 
 @media (prefers-color-scheme: dark) {
