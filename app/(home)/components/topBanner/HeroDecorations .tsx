@@ -15,7 +15,7 @@ const HeroDecorations = () => {
         src={LEFT_SQUIGGLE}
         alt=""
         aria-hidden
-        className="pointer-events-none absolute md:-left-20 top-46 md:top-32 w-36  lg:-left-10 lg:w-56"
+        className="pointer-events-none absolute md:-left-20 top-70 md:top-32 w-20  lg:-left-10 lg:w-56"
       />
 
       <Image
