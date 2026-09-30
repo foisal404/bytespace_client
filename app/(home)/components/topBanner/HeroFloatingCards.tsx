@@ -32,7 +32,7 @@ const HeroFloatingCards = () => {
       </HeroFloatingCard>
 
       {/* Learning Progress */}
-      <HeroFloatingCard className="bottom-[180px] right-[0%] md:right-[4%]  w-40 p-2 md:p-4 lg:bottom-[250px] lg:right-[26%]">
+      <HeroFloatingCard className="bottom-[180px] right-[0%] md:right-[4%]  lg:w-60 p-2 md:p-4 lg:bottom-[250px] lg:right-[26%]">
         <p className="text-xs lg:text-[14px] text-gray-600">Learning Progress</p>
 
         <p className="mt-1 text-md lg:text-[48px] font-semibold text-gray-900">55%</p>
