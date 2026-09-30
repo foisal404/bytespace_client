@@ -121,7 +121,7 @@ export default function Navbar() {
                 isActive("/marketplace") ? "opacity-100" : "opacity-70"
               }`}
             >
-              <BagIcon width={24} height={24} className="text-primary" />
+              <BagIcon width={16} height={20} className="text-primary" />
             </Link>
           </div>
 
