@@ -47,7 +47,7 @@ export default function Navbar() {
     <>
       {/* Navbar */}
       <header
-        className={`fixed left-0 top-0 z-50 w-full transition-colors duration-300 ${
+        className={`fixed left-0 top-0 z-100 w-full transition-colors duration-300  ${
           isScrolled ? "bg-[#003BE2]/95" : "bg-transparent"
         }`}
       >
