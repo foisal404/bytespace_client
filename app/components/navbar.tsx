@@ -140,14 +140,14 @@ export default function Navbar() {
       {/* Mobile Overlay */}
       {isOpen && (
         <div
-          className="fixed inset-0 z-[60] bg-black/40 backdrop-blur-[2px] md:hidden"
+          className="fixed inset-0 z-60 bg-black/40 backdrop-blur-[2px] md:hidden"
           onClick={() => setIsOpen(false)}
         />
       )}
 
       {/* Mobile Side Drawer */}
       <aside
-        className={`fixed right-0 top-0 z-[70] flex h-dvh w-[88%] max-w-sm flex-col bg-[#003BE2] shadow-2xl transition-transform duration-300 ease-out md:hidden ${
+        className={`fixed right-0 top-0 z-100 flex h-dvh w-[88%] max-w-sm flex-col bg-blue-1 shadow-2xl transition-transform duration-300 ease-out md:hidden ${
           isOpen ? "translate-x-0" : "translate-x-full"
         }`}
       >
