@@ -14,7 +14,7 @@ const CategoryFilter = ({
   return (
     <div className="mt-10 lg:max-w-260 mx-auto">
       {/* Desktop */}
-      <div className="flex-wrap justify-center items-center gap-1 md:gap-4 flex gap-y-5">
+      <div className="flex-wrap justify-center items-center gap-1 md:gap-4 flex gap-y-2 md:gap-y-5">
         {categories.map((category) => (
           <CategoryButton
             key={category}
@@ -23,7 +23,7 @@ const CategoryFilter = ({
             onClick={() => onCategoryChange(category)}
           />
         ))}
-        <p className="text-blue-1 cursor-pointer">+more</p>
+        <p className="text-blue-1 cursor-pointer text-xs md:text-[16px]">+more</p>
       </div>
     </div>
   );
